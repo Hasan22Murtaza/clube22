@@ -15,7 +15,7 @@ const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY);
 const allPlans = {
   BRL: [
     {
-      id: 'price_1RrjhjIXX3E5aU0rOPiEY6U1',
+      id: 'price_1RwhIsHwdpUgTcwFIP4KAHQb',
       name: 'Plano Mensal',
       price: 'R$ 19,90',
       period: '/mês',
@@ -23,7 +23,7 @@ const allPlans = {
       popular: false
     },
     {
-      id: 'prod_SsPBynDhr7v94J',
+      id: 'price_1RwhJvHwdpUgTcwFnVWz3DkP',
       name: 'Plano Semestral',
       price: 'R$ 59,00',
       period: '/6 meses',
@@ -32,7 +32,7 @@ const allPlans = {
       savings: 'Mais Popular'
     },
     {
-      id: 'price_1RrjiUIXX3E5aU0r2khqz1ck',
+      id: 'price_1RwhLKHwdpUgTcwFu4aZuYmK',
       name: 'Plano Anual',
       price: 'R$ 119,00',
       period: '/ano',
@@ -43,7 +43,7 @@ const allPlans = {
   ],
   USD: [
     {
-      id: 'price_1RumtxIXX3E5aU0rshL8A4pq',
+      id: 'price_1RwhEPHwdpUgTcwF7mKKYsOK',
       name: 'Monthly Plan',
       price: '$19.90',
       period: '/month',
@@ -51,7 +51,7 @@ const allPlans = {
       popular: false
     },
     {
-      id: 'price_1Rumv2IXX3E5aU0rQ8i05wSP',
+      id: 'price_1RwhGGHwdpUgTcwFfhQ6HV28',
       name: 'Semiannual Plan',
       price: '$59.00',
       period: '/6 months',
@@ -60,7 +60,7 @@ const allPlans = {
       savings: 'Most Popular'
     },
     {
-      id: 'price_1Rumw4IXX3E5aU0rzZgGHsnG',
+      id: 'price_1RwhHBHwdpUgTcwFCWgwe45I',
       name: 'Annual Plan',
       price: '$119.00',
       period: '/year',
