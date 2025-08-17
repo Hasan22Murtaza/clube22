@@ -10,12 +10,12 @@ import { useToast } from '@/components/ui/use-toast';
 import { Crown, Check, ArrowLeft, Star, Zap, CheckCircle } from 'lucide-react';
 import { loadStripe } from '@stripe/stripe-js';
 
-const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY);
+const stripePromise = loadStripe('pk_live_51Rmgs1IXX3E5aU0rflJuFxfwWckEZHPRJVA3hA1IJMxSydVMkI09HUjgOlMGbSG9fOQk7fr7RzSBzxemmIzkgBro00sBvIboPm');
 
 const allPlans = {
   BRL: [
     {
-      id: 'price_1RwhIsHwdpUgTcwFIP4KAHQb',
+      id: 'price_1RrjZhIXX3E5aU0rVW9BXGty',
       name: 'Plano Mensal',
       price: 'R$ 19,90',
       period: '/mês',
@@ -23,7 +23,7 @@ const allPlans = {
       popular: false
     },
     {
-      id: 'price_1RwhJvHwdpUgTcwFnVWz3DkP',
+      id: 'price_1RrjhjIXX3E5aU0rOPiEY6U1',
       name: 'Plano Semestral',
       price: 'R$ 59,00',
       period: '/6 meses',
@@ -32,7 +32,7 @@ const allPlans = {
       savings: 'Mais Popular'
     },
     {
-      id: 'price_1RwhLKHwdpUgTcwFu4aZuYmK',
+      id: 'price_1RrjiUIXX3E5aU0r2khqz1ck',
       name: 'Plano Anual',
       price: 'R$ 119,00',
       period: '/ano',
@@ -43,7 +43,7 @@ const allPlans = {
   ],
   USD: [
     {
-      id: 'price_1RwhEPHwdpUgTcwF7mKKYsOK',
+      id: 'price_1RumtxIXX3E5aU0rshL8A4pq',
       name: 'Monthly Plan',
       price: '$19.90',
       period: '/month',
@@ -51,7 +51,7 @@ const allPlans = {
       popular: false
     },
     {
-      id: 'price_1RwhGGHwdpUgTcwFfhQ6HV28',
+      id: 'price_1Rumv2IXX3E5aU0rQ8i05wSP',
       name: 'Semiannual Plan',
       price: '$59.00',
       period: '/6 months',
@@ -60,7 +60,7 @@ const allPlans = {
       savings: 'Most Popular'
     },
     {
-      id: 'price_1RwhHBHwdpUgTcwFCWgwe45I',
+      id: 'price_1Rumw4IXX3E5aU0rzZgGHsnG',
       name: 'Annual Plan',
       price: '$119.00',
       period: '/year',
